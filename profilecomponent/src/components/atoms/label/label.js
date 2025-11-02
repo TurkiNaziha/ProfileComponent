@@ -1,6 +1,6 @@
 import {label_default} from "../defaults/label_default";
 
-function input(props) {
+function label(props) {
     const {
         htmlFor,
         children,
@@ -15,3 +15,4 @@ function input(props) {
         > {children}</label>
     )
 }
+export default label
