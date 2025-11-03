@@ -1,46 +1,46 @@
 /* Base Atom Styles */
-.a-button {
+/* .a-button {
     padding: 8px 16px;
     border: none;
     border-radius: 6px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s;
-}
-.a-button--primary   { background: #007bff; color: white; }
+} */
+/* .a-button--primary   { background: #007bff; color: white; }
 .a-button--secondary { background: #6c757d; color: white; }
 .a-button--success   { background: #28a745; color: white; }
 .a-button--danger    { background: #dc3545; color: white; }
 .a-button--warning   { background: #ffc107; color: black; }
 .a-button--ghost     { background: transparent; border: 1px solid #007bff; color: #007bff; }
-.a-button--link      { background: none; color: #007bff; text-decoration: underline; padding: 0; }
+.a-button--link      { background: none; color: #007bff; text-decoration: underline; padding: 0; } */
 
-.a-label {
+/* .a-label {
     display: block;
     margin-bottom: 4px;
     font-weight: 600;
     color: #333;
-}
+} */
 
-.a-input {
+/* .a-input {
     width: 100%;
     padding: 8px 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
-}
+} */
 
 /* Picture Sizes */
-.a-picture {
+/* .a-picture {
     border-radius: 50%;
     object-fit: cover;
 }
 .a-picture--small  { width: 40px; height: 40px; }
 .a-picture--medium { width: 80px; height: 80px; }
-.a-picture--large  { width: 120px; height: 120px; }
+.a-picture--large  { width: 120px; height: 120px; } */
 
 /* Molecule: Profile Card */
-.m-profile-card {
+/* .m-profile-card {
     max-width: 400px;
     margin: 2rem auto;
     padding: 2rem;
@@ -83,7 +83,7 @@
 
 .m-profile-card__button {
     flex: 1;
-}
+} */
 
 /* Page */
 .page-profile-card {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { button_defaults, button_variant_classnames } from '../defaults/button_default';
-
+import './button.css';   // <-- pulls everything
 const Button = ({
     variant = button_defaults.variant,
     type = button_defaults.type,

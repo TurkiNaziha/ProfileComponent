@@ -1,6 +1,6 @@
 import React from 'react';
 import { label_defaults } from '../defaults/label_defaults';
-
+import './label.css';   // <-- pulls everything
 const Label = ({
     htmlFor = label_defaults.htmlFor,
     children = label_defaults.children,

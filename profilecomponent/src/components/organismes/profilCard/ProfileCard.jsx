@@ -4,7 +4,7 @@ import Label from '../../atoms/label/label';
 import Input from '../../atoms/input/input';
 import Button from '../../atoms/button/Button';
 import TextField from "../../molecules/textField/TextField";
-
+import './ProfilCard.css';   // <-- pulls everything
 
 const ProfileCard = () => {
     const [name, setName] = useState('John Doe');

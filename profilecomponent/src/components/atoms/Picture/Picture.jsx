@@ -1,6 +1,6 @@
 import React from 'react';
 import { picture_defaults } from '../defaults/picture_defaults';
-
+import './picture.css';   // <-- pulls everything
 const sizeMap = {
     small: 'a-picture--small',
     medium: 'a-picture--medium',
