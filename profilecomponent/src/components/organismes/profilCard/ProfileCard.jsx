@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
-import Picture from './atoms/Picture/Picture';
-import Label from './atoms/label/label';
-import Input from './atoms/input/input';
-import Button from './atoms/button/Button';
+import React, {useState} from 'react';
+import Picture from '../../atoms/Picture/Picture';
+import Label from '../../atoms/label/label';
+import Input from '../../atoms/input/input';
+import Button from '../../atoms/button/Button';
+import TextField from "../../molecules/textField/TextField";
 
 
 const ProfileCard = () => {
@@ -22,27 +23,25 @@ const ProfileCard = () => {
             <div className="m-profile-card__info">
                 {/* Input + Label */}
                 <div className="m-profile-card__field">
-                    <Label htmlFor="name" customClassName="m-profile-card__label">
-                        Full Name
-                    </Label>
-                    <Input
+                    <TextField
                         id="name"
+                        label={name}
                         value={name}
                         onChange={(e) => setName(e.target.value)}
-                        customClassName="m-profile-card__input"
+
                     />
+
+
                 </div>
 
                 <div className="m-profile-card__field">
-                    <Label htmlFor="email" customClassName="m-profile-card__label">
-                        Email Address
-                    </Label>
-                    <Input
+
+                    <TextField
                         id="email"
-                        type="email"
+                        label={email}
                         value={email}
+
                         onChange={(e) => setEmail(e.target.value)}
-                        customClassName="m-profile-card__input"
                     />
                 </div>
 
@@ -51,7 +50,7 @@ const ProfileCard = () => {
                     <Button
                         variant="success"
                         onClick={() => alert(`Saved: ${name}, ${email}`)}
-                        customClassName="m-profile-card__button"
+                        customClassName="m-profile-card__button custom-btn "
                     >
                         Save Profile
                     </Button>
@@ -59,7 +58,8 @@ const ProfileCard = () => {
                     <Button
                         variant="danger"
                         onClick={() => {
-                            setName(''); setEmail('');
+                            setName('');
+                            setEmail('');
                         }}
                         customClassName="m-profile-card__button"
                     >

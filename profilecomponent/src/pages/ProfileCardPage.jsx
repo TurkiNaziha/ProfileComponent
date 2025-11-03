@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import ProfileCard from '../components/ProfileCard';
+import ProfileCard from '../components/organismes/profilCard/ProfileCard';
 
 const ProfileCardPage = () => {
     return (
